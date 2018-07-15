@@ -1,0 +1,223 @@
+body{
+	/*если не найдет, то любой шрифт без засечек*/
+	font-family: Arial, sans-serif; 
+	/*убираем белые края*/
+	padding: 0;
+	margin: 0;
+	color: #222;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	/*не учитывает парринг. Не прибавляет пиксили*/
+	box-sizing: border-box;
+}
+
+header{
+	/*ковер - ра всю ширену экрана*/
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.container{
+	width: 930px;
+	/*по середине*/
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: 41px;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 45px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a{
+	color: #fff;
+	/*убираем подчеркивания*/
+	text-decoration: none;
+	/*большие буква*/
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles__ferst{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center; 
+	margin-top: 180px;
+}
+
+h1{
+	margin: 15px;
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.button{
+	/*цвет фона*/
+	background: #fed136;
+	/*цвет шрифта*/
+	color: #484543;
+    /*закруглить края фона*/
+	border-radius: 3px;
+	/**/
+	display: block;
+	/*ширина*/
+	width: 240px;
+	/*отступ от граници*/
+	padding: 20px 0;
+	/*отступ от граници снаружи*/
+	margin: 0 auto;
+	/*убрать подчеркивание*/
+	text-decoration: none;
+	/*выровнять по центру*/
+	text-align: center;
+	/*верхний ригистр*/
+	text-transform: uppercase;
+	/*жирный шрифт*/
+	font-weight: bold;
+	/*высота шрифта*/
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.title{
+	padding-top: 115px;
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p{
+	color: #777;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.services{
+	margin-top: 80px; 
+}
+
+.services__item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services_item h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services_item p{
+	color: #777;
+	font-size: 14px;
+	/*высота текста*/
+	line-height: 1.6em;
+}
+
+.services__item:last-child{
+	float: right;
+}
+
+.services__item:nth-child(2){
+	margin-left: 60px; 
+}
+
+#services{
+	padding-bottom: 120px;
+}
+
+#portfolio{
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.works{
+	margin-top: 70px;
+}
+
+.works img{
+	float: left;
+}
+
+.works img:last-child{
+	float: right;
+}
+
+.works img:nth-child(2){
+	margin-left: 29px;
+}
+
+
+#about{
+	padding-bottom: 120px;
+}
+
+.about_items{
+	margin-top: 79px;
+}
+
+.about_text{
+	width: 340px;
+	text-align: right;
+	margin: 0;
+	float: left;
+	margin-right: 30px;
+}
+
+.about_items h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.about_items p{
+	color: #989898;
+	margin-top: 7px;
+}
+
+.right img{
+	float: left;
+	margin-left: 370px;
+	margin-right: 30px;
+}
+
+footer p{
+	text-align: center;
+	color: #9a9a9a;
+	font-size: 14px;
+	margin-bottom: 112px;
+}
